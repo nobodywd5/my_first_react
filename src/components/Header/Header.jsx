@@ -1,12 +1,14 @@
 import React from 'react';
+import HeaderNav from './HeaderNav/HeaderNav';
+import HeaderLogo from './HeaderLogo/HeaderLogo';
+import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
-            <img
-                alt="start-my"
-                src="https://domenafirmy.pl/wp-content/uploads/2018/09/domenafirmy-logo.svg"/>
-        </header>
+        <div className={styles.app_wrapper_header}>
+            <HeaderLogo/>
+            <HeaderNav/>
+        </div>
     );
 }
 
