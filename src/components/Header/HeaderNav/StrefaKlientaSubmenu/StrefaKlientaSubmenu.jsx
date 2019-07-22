@@ -1,9 +1,12 @@
 import React from 'react';
+import styles from './StrefaKlientaSubmenu.module.css';
 
 const StrefaKlientaSubmenu = () => {
     return (
-        <div>
-            <img src="https://domenafirmy.pl/wp-content/uploads/2018/09/domenafirmy-logo.svg" alt="logo"/>
+        <div className={styles.menuItemContainer}>
+            <div className='menuItem'>
+                <p>Strefa Klienta</p>
+            </div>
         </div>
     );
 }

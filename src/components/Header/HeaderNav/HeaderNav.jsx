@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './HeaderNav.module.css';
+import './HeaderNav.css';
 import StartSubmenu from './StartSubmenu/StartSubmenu';
 import MarketingSubmenu from './MarketingSubmenu/MarketingSubmenu';
 import ItSubmenu from './ItSubmenu/ItSubmenu';

@@ -1,9 +1,12 @@
 import React from 'react';
+import styles from './BezpiczenstwoSubmenu.module.css';
 
 const BezpiczenstwoSubmenu = () => {
     return (
-        <div>
-            <img src="https://domenafirmy.pl/wp-content/uploads/2018/09/domenafirmy-logo.svg" alt="logo"/>
+        <div className={styles.item}>
+            <div className='menuItem'>
+                <p>Bezpiczeństwo</p>
+            </div>
         </div>
     );
 }
